@@ -1,0 +1,25 @@
+<ion-view title="Calculadora Flex" id="page11" style="background-color:#E2D9D9;" class=" ">
+    <ion-content padding="true" scroll="false" class="has-header">
+        <div class="spacer" style="width: 283px; height: 59px;"></div>
+        <div>
+            <div class="row">
+                <div class="col">
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Gasolina</span>
+                        <input type="text" required="number " id="g" ng-model="gasolina" style="background-color: #f0f0f0" placeholder="R$">
+                    </label>
+                </div>
+                <div class="col">
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Etanol</span>
+                        <input type="text" required="number" id="e" ng-model="etanol"   style="background-color: #f0f0f0" placeholder="R$">
+                    </label>
+                </div>
+            </div>
+        </div>
+        <button id="calculadoraFlex-button12" class=" button button-positive  button-block "  ng-click="calcular()">Calcular</button>
+
+        <h2 id="demo"><div style="text-align:center; color: blue">{{melhor}}</div></h2>
+
+    </ion-content>
+</ion-view>

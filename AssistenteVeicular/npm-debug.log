@@ -1,0 +1,313 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'angular-input-mask-i18n' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.2
+4 verbose install initial load of C:\Users\bruno\Dropbox\AssistenteVeicular\package.json
+5 warn package.json assistente@1.1.1 No repository field.
+6 warn package.json assistente@1.1.1 No license field.
+7 verbose readDependencies loading dependencies from C:\Users\bruno\Dropbox\AssistenteVeicular\package.json
+8 silly cache add args [ 'angular-input-mask-i18n', null ]
+9 verbose cache add spec angular-input-mask-i18n
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'angular-input-mask-i18n',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'angular-input-mask-i18n',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed angular-input-mask-i18n@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for angular-input-mask-i18n
+13 info addNameTag [ 'angular-input-mask-i18n', 'latest' ]
+14 silly mapToRegistry name angular-input-mask-i18n
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/angular-input-mask-i18n
+18 verbose addNameTag registry:https://registry.npmjs.org/angular-input-mask-i18n not in flight; fetching
+19 verbose request uri https://registry.npmjs.org/angular-input-mask-i18n
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 02:53:39
+22 verbose request id cc7095eb36ead9ff
+23 http request GET https://registry.npmjs.org/angular-input-mask-i18n
+24 http 200 https://registry.npmjs.org/angular-input-mask-i18n
+25 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 verbose headers   etag: '"157CJI6VO6JZL1S3E3T09780Y"',
+25 verbose headers   'content-type': 'application/json',
+25 verbose headers   'content-encoding': 'gzip',
+25 verbose headers   'cache-control': 'max-age=300',
+25 verbose headers   'content-length': '1995',
+25 verbose headers   'accept-ranges': 'bytes',
+25 verbose headers   date: 'Tue, 21 Jun 2016 05:53:47 GMT',
+25 verbose headers   via: '1.1 varnish',
+25 verbose headers   age: '0',
+25 verbose headers   connection: 'keep-alive',
+25 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+25 verbose headers   'x-cache': 'MISS',
+25 verbose headers   'x-cache-hits': '0',
+25 verbose headers   'x-timer': 'S1466488427.136192,VS0,VE134',
+25 verbose headers   vary: 'Accept-Encoding' }
+26 silly get cb [ 200,
+26 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly get     etag: '"157CJI6VO6JZL1S3E3T09780Y"',
+26 silly get     'content-type': 'application/json',
+26 silly get     'content-encoding': 'gzip',
+26 silly get     'cache-control': 'max-age=300',
+26 silly get     'content-length': '1995',
+26 silly get     'accept-ranges': 'bytes',
+26 silly get     date: 'Tue, 21 Jun 2016 05:53:47 GMT',
+26 silly get     via: '1.1 varnish',
+26 silly get     age: '0',
+26 silly get     connection: 'keep-alive',
+26 silly get     'x-served-by': 'cache-sjc3127-SJC',
+26 silly get     'x-cache': 'MISS',
+26 silly get     'x-cache-hits': '0',
+26 silly get     'x-timer': 'S1466488427.136192,VS0,VE134',
+26 silly get     vary: 'Accept-Encoding' } ]
+27 verbose get saving angular-input-mask-i18n to C:\Users\bruno\AppData\Roaming\npm-cache\registry.npmjs.org\angular-input-mask-i18n\.cache.json
+28 silly addNameTag next cb for angular-input-mask-i18n with tag latest
+29 silly addNamed angular-input-mask-i18n@1.5.0
+30 verbose addNamed "1.5.0" is a plain semver version for angular-input-mask-i18n
+31 silly mapToRegistry name angular-input-mask-i18n
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/angular-input-mask-i18n
+35 verbose addRemoteTarball https://registry.npmjs.org/angular-input-mask-i18n/-/angular-input-mask-i18n-1.5.0.tgz not in flight; adding
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-input-mask-i18n/-/angular-input-mask-i18n-1.5.0.tgz',
+36 verbose addRemoteTarball   '1a409c4ce862b6e71f815907af01be5d47a360e9' ]
+37 info retry fetch attempt 1 at 02:53:41
+38 info attempt registry request try #1 at 02:53:41
+39 http fetch GET https://registry.npmjs.org/angular-input-mask-i18n/-/angular-input-mask-i18n-1.5.0.tgz
+40 http fetch 200 https://registry.npmjs.org/angular-input-mask-i18n/-/angular-input-mask-i18n-1.5.0.tgz
+41 silly fetchAndShaCheck shasum 1a409c4ce862b6e71f815907af01be5d47a360e9
+42 verbose addTmpTarball C:\Users\bruno\AppData\Local\Temp\npm-7280-9f42c317\registry.npmjs.org\angular-input-mask-i18n\-\angular-input-mask-i18n-1.5.0.tgz not in flight; adding
+43 verbose addTmpTarball already have metadata; skipping unpack for angular-input-mask-i18n@1.5.0
+44 silly cache afterAdd angular-input-mask-i18n@1.5.0
+45 verbose afterAdd C:\Users\bruno\AppData\Roaming\npm-cache\angular-input-mask-i18n\1.5.0\package\package.json not in flight; writing
+46 verbose afterAdd C:\Users\bruno\AppData\Roaming\npm-cache\angular-input-mask-i18n\1.5.0\package\package.json written
+47 silly install resolved [ { name: 'angular-input-mask-i18n',
+47 silly install resolved     version: '1.5.0',
+47 silly install resolved     description: 'Personalized input masks for AngularJS',
+47 silly install resolved     main: 'mask.js',
+47 silly install resolved     repository:
+47 silly install resolved      { type: 'git',
+47 silly install resolved        url: 'git@github.com:matmar10/angular-input-masks-i18n.git' },
+47 silly install resolved     homepage: 'http://github.com/matmar10/angular-input-mask-i18n',
+47 silly install resolved     scripts:
+47 silly install resolved      { test: 'gulp test',
+47 silly install resolved        postinstall: 'bower install && gulp build',
+47 silly install resolved        postupdate: 'bower update' },
+47 silly install resolved     keywords: [ 'input', 'mask', 'angularjs' ],
+47 silly install resolved     author: { name: 'igor.rafael@gmail.com' },
+47 silly install resolved     license: 'MIT',
+47 silly install resolved     dependencies: {},
+47 silly install resolved     devDependencies:
+47 silly install resolved      { 'angular-moment-service': '^0.1.0',
+47 silly install resolved        'event-stream': '^3.1.7',
+47 silly install resolved        express: '^4.8.5',
+47 silly install resolved        gulp: '^3.7.0',
+47 silly install resolved        'gulp-changed': '~0.3.0',
+47 silly install resolved        'gulp-concat': '^2.3.4',
+47 silly install resolved        'gulp-footer': '^1.0.5',
+47 silly install resolved        'gulp-header': '^1.0.5',
+47 silly install resolved        'gulp-jshint': '^1.6.1',
+47 silly install resolved        'gulp-load-plugins': '^0.6.0',
+47 silly install resolved        'gulp-protractor': '0.0.11',
+47 silly install resolved        'gulp-uglify': '^0.3.2',
+47 silly install resolved        'jshint-stylish': '~0.1.5',
+47 silly install resolved        moment: '^2.8.4',
+47 silly install resolved        protractor: '^1.0.0',
+47 silly install resolved        requirejs: '~2.1.10' },
+47 silly install resolved     gitHead: 'ca84c8d75fe4b753581d6a084912efabb55adc72',
+47 silly install resolved     bugs: { url: 'https://github.com/matmar10/angular-input-masks-i18n/issues' },
+47 silly install resolved     _id: 'angular-input-mask-i18n@1.5.0',
+47 silly install resolved     _shasum: '1a409c4ce862b6e71f815907af01be5d47a360e9',
+47 silly install resolved     _from: 'angular-input-mask-i18n@latest',
+47 silly install resolved     _npmVersion: '1.4.23',
+47 silly install resolved     _npmUser: { name: 'matmar10', email: 'matthew.mar10@gmail.com' },
+47 silly install resolved     maintainers: [ [Object] ],
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: '1a409c4ce862b6e71f815907af01be5d47a360e9',
+47 silly install resolved        tarball: 'https://registry.npmjs.org/angular-input-mask-i18n/-/angular-input-mask-i18n-1.5.0.tgz' },
+47 silly install resolved     directories: {},
+47 silly install resolved     _resolved: 'https://registry.npmjs.org/angular-input-mask-i18n/-/angular-input-mask-i18n-1.5.0.tgz' } ]
+48 info install angular-input-mask-i18n@1.5.0 into C:\Users\bruno\Dropbox\AssistenteVeicular
+49 info installOne angular-input-mask-i18n@1.5.0
+50 verbose installOne of angular-input-mask-i18n to C:\Users\bruno\Dropbox\AssistenteVeicular not in flight; installing
+51 verbose lock using C:\Users\bruno\AppData\Roaming\npm-cache\_locks\angular-input-mask-i18n-0aa4ea7de07c57c8.lock for C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+52 silly install write writing angular-input-mask-i18n 1.5.0 to C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+53 verbose unbuild node_modules\angular-input-mask-i18n
+54 silly gentlyRm C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n is being purged from base C:\Users\bruno\Dropbox\AssistenteVeicular
+55 verbose gentlyRm don't care about contents; nuking C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+56 verbose tar unpack C:\Users\bruno\AppData\Roaming\npm-cache\angular-input-mask-i18n\1.5.0\package.tgz
+57 verbose tar unpacking to C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+58 silly gentlyRm C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n is being purged
+59 verbose gentlyRm don't care about contents; nuking C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+60 silly gunzTarPerm modes [ '777', '666' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+65 silly gunzTarPerm extractEntry README.md
+66 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+67 silly gunzTarPerm extractEntry LICENSE
+68 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+69 silly gunzTarPerm extractEntry gulpfile.js
+70 silly gunzTarPerm modified mode [ 'gulpfile.js', 420, 438 ]
+71 silly gunzTarPerm extractEntry .idea/jsLinters/jshint.xml
+72 silly gunzTarPerm modified mode [ '.idea/jsLinters/jshint.xml', 420, 438 ]
+73 silly gunzTarPerm extractEntry .idea/.name
+74 silly gunzTarPerm modified mode [ '.idea/.name', 420, 438 ]
+75 silly gunzTarPerm extractEntry .idea/codeStyleSettings.xml
+76 silly gunzTarPerm modified mode [ '.idea/codeStyleSettings.xml', 420, 438 ]
+77 silly gunzTarPerm extractEntry .idea/encodings.xml
+78 silly gunzTarPerm modified mode [ '.idea/encodings.xml', 420, 438 ]
+79 silly gunzTarPerm extractEntry .idea/inspectionProfiles/Project_Default.xml
+80 silly gunzTarPerm modified mode [ '.idea/inspectionProfiles/Project_Default.xml', 420, 438 ]
+81 silly gunzTarPerm extractEntry .idea/inspectionProfiles/profiles_settings.xml
+82 silly gunzTarPerm modified mode [ '.idea/inspectionProfiles/profiles_settings.xml', 420, 438 ]
+83 silly gunzTarPerm extractEntry .idea/angular-input-masks.iml
+84 silly gunzTarPerm modified mode [ '.idea/angular-input-masks.iml', 420, 438 ]
+85 silly gunzTarPerm extractEntry .idea/misc.xml
+86 silly gunzTarPerm modified mode [ '.idea/misc.xml', 420, 438 ]
+87 silly gunzTarPerm extractEntry .idea/modules.xml
+88 silly gunzTarPerm modified mode [ '.idea/modules.xml', 420, 438 ]
+89 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+90 silly gunzTarPerm modified mode [ '.idea/scopes/scope_settings.xml', 420, 438 ]
+91 silly gunzTarPerm extractEntry .idea/vcs.xml
+92 silly gunzTarPerm modified mode [ '.idea/vcs.xml', 420, 438 ]
+93 silly gunzTarPerm extractEntry .idea/workspace.xml
+94 silly gunzTarPerm modified mode [ '.idea/workspace.xml', 420, 438 ]
+95 silly gunzTarPerm extractEntry bower.json
+96 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+97 silly gunzTarPerm extractEntry .jshintrc
+98 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+99 silly gunzTarPerm extractEntry demo/index.html
+100 silly gunzTarPerm modified mode [ 'demo/index.html', 420, 438 ]
+101 silly gunzTarPerm extractEntry CHANGELOG.md
+102 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+103 silly gunzTarPerm extractEntry src/cep.js
+104 silly gunzTarPerm modified mode [ 'src/cep.js', 420, 438 ]
+105 silly gunzTarPerm extractEntry src/helpers.js
+106 silly gunzTarPerm modified mode [ 'src/helpers.js', 420, 438 ]
+107 silly gunzTarPerm extractEntry src/ie.js
+108 silly gunzTarPerm modified mode [ 'src/ie.js', 420, 438 ]
+109 silly gunzTarPerm extractEntry src/masks.js
+110 silly gunzTarPerm modified mode [ 'src/masks.js', 420, 438 ]
+111 silly gunzTarPerm extractEntry src/date.js
+112 silly gunzTarPerm modified mode [ 'src/date.js', 420, 438 ]
+113 silly gunzTarPerm extractEntry src/nfe.js
+114 silly gunzTarPerm modified mode [ 'src/nfe.js', 420, 438 ]
+115 silly gunzTarPerm extractEntry src/number.js
+116 silly gunzTarPerm modified mode [ 'src/number.js', 420, 438 ]
+117 silly gunzTarPerm extractEntry src/percentage.js
+118 silly gunzTarPerm modified mode [ 'src/percentage.js', 420, 438 ]
+119 silly gunzTarPerm extractEntry src/phone.js
+120 silly gunzTarPerm modified mode [ 'src/phone.js', 420, 438 ]
+121 silly gunzTarPerm extractEntry src/scientific-notation.js
+122 silly gunzTarPerm modified mode [ 'src/scientific-notation.js', 420, 438 ]
+123 silly gunzTarPerm extractEntry src/cpf-cnpj.js
+124 silly gunzTarPerm modified mode [ 'src/cpf-cnpj.js', 420, 438 ]
+125 silly gunzTarPerm extractEntry src/time.js
+126 silly gunzTarPerm modified mode [ 'src/time.js', 420, 438 ]
+127 silly gunzTarPerm extractEntry src/money.js
+128 silly gunzTarPerm modified mode [ 'src/money.js', 420, 438 ]
+129 silly gunzTarPerm extractEntry releases/masks.js
+130 silly gunzTarPerm modified mode [ 'releases/masks.js', 420, 438 ]
+131 silly gunzTarPerm extractEntry releases/masks.min.js
+132 silly gunzTarPerm modified mode [ 'releases/masks.min.js', 420, 438 ]
+133 silly gunzTarPerm extractEntry test/cep-spec.js
+134 silly gunzTarPerm modified mode [ 'test/cep-spec.js', 420, 438 ]
+135 silly gunzTarPerm extractEntry test/time-spec.js
+136 silly gunzTarPerm modified mode [ 'test/time-spec.js', 420, 438 ]
+137 silly gunzTarPerm extractEntry test/date-spec.js
+138 silly gunzTarPerm modified mode [ 'test/date-spec.js', 420, 438 ]
+139 silly gunzTarPerm extractEntry test/scientific-notation-spec.js
+140 silly gunzTarPerm modified mode [ 'test/scientific-notation-spec.js', 420, 438 ]
+141 silly gunzTarPerm extractEntry test/cpf-cnpj-spec.js
+142 silly gunzTarPerm modified mode [ 'test/cpf-cnpj-spec.js', 420, 438 ]
+143 silly gunzTarPerm extractEntry test/money-spec.js
+144 silly gunzTarPerm modified mode [ 'test/money-spec.js', 420, 438 ]
+145 silly gunzTarPerm extractEntry test/conf.js
+146 silly gunzTarPerm modified mode [ 'test/conf.js', 420, 438 ]
+147 silly gunzTarPerm extractEntry test/phone-spec.js
+148 silly gunzTarPerm modified mode [ 'test/phone-spec.js', 420, 438 ]
+149 silly gunzTarPerm extractEntry test/number-spec.js
+150 silly gunzTarPerm modified mode [ 'test/number-spec.js', 420, 438 ]
+151 silly gunzTarPerm extractEntry test/percentage-spec.js
+152 silly gunzTarPerm modified mode [ 'test/percentage-spec.js', 420, 438 ]
+153 silly gunzTarPerm extractEntry test/ie-spec.js
+154 silly gunzTarPerm modified mode [ 'test/ie-spec.js', 420, 438 ]
+155 silly gunzTarPerm extractEntry test/nfe-spec.js
+156 silly gunzTarPerm modified mode [ 'test/nfe-spec.js', 420, 438 ]
+157 silly gunzTarPerm extractEntry test/nfe.html
+158 silly gunzTarPerm modified mode [ 'test/nfe.html', 420, 438 ]
+159 silly gunzTarPerm extractEntry test/date.html
+160 silly gunzTarPerm modified mode [ 'test/date.html', 420, 438 ]
+161 silly gunzTarPerm extractEntry test/scientific-notation.html
+162 silly gunzTarPerm modified mode [ 'test/scientific-notation.html', 420, 438 ]
+163 silly gunzTarPerm extractEntry test/date-pt-br.html
+164 silly gunzTarPerm modified mode [ 'test/date-pt-br.html', 420, 438 ]
+165 silly gunzTarPerm extractEntry test/time.html
+166 silly gunzTarPerm modified mode [ 'test/time.html', 420, 438 ]
+167 verbose write writing to C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n\package.json
+168 info preinstall angular-input-mask-i18n@1.5.0
+169 verbose readDependencies loading dependencies from C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n\package.json
+170 verbose readDependencies loading dependencies from C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n\package.json
+171 silly install resolved []
+172 verbose about to build C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+173 info build C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+174 info linkStuff angular-input-mask-i18n@1.5.0
+175 silly linkStuff angular-input-mask-i18n@1.5.0 has C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules as its parent node_modules
+176 verbose linkBins angular-input-mask-i18n@1.5.0
+177 verbose linkMans angular-input-mask-i18n@1.5.0
+178 verbose rebuildBundles angular-input-mask-i18n@1.5.0
+179 info install angular-input-mask-i18n@1.5.0
+180 info postinstall angular-input-mask-i18n@1.5.0
+181 verbose unsafe-perm in lifecycle true
+182 info angular-input-mask-i18n@1.5.0 Failed to exec postinstall script
+183 verbose unlock done using C:\Users\bruno\AppData\Roaming\npm-cache\_locks\angular-input-mask-i18n-0aa4ea7de07c57c8.lock for C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+184 verbose stack Error: angular-input-mask-i18n@1.5.0 postinstall: `bower install && gulp build`
+184 verbose stack Exit status 1
+184 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:214:16)
+184 verbose stack     at emitTwo (events.js:87:13)
+184 verbose stack     at EventEmitter.emit (events.js:172:7)
+184 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+184 verbose stack     at emitTwo (events.js:87:13)
+184 verbose stack     at ChildProcess.emit (events.js:172:7)
+184 verbose stack     at maybeClose (internal/child_process.js:821:16)
+184 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+185 verbose pkgid angular-input-mask-i18n@1.5.0
+186 verbose cwd C:\Users\bruno\Dropbox\AssistenteVeicular
+187 error Windows_NT 6.1.7601
+188 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "angular-input-mask-i18n"
+189 error node v4.3.2
+190 error npm  v2.14.12
+191 error code ELIFECYCLE
+192 error angular-input-mask-i18n@1.5.0 postinstall: `bower install && gulp build`
+192 error Exit status 1
+193 error Failed at the angular-input-mask-i18n@1.5.0 postinstall script 'bower install && gulp build'.
+193 error This is most likely a problem with the angular-input-mask-i18n package,
+193 error not with npm itself.
+193 error Tell the author that this fails on your system:
+193 error     bower install && gulp build
+193 error You can get their info via:
+193 error     npm owner ls angular-input-mask-i18n
+193 error There is likely additional logging output above.
+194 verbose exit [ 1, true ]
+195 verbose unbuild node_modules\angular-input-mask-i18n
+196 info preuninstall angular-input-mask-i18n@1.5.0
+197 info uninstall angular-input-mask-i18n@1.5.0
+198 verbose unbuild rmStuff angular-input-mask-i18n@1.5.0 from C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules
+199 info postuninstall angular-input-mask-i18n@1.5.0
+200 silly gentlyRm C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n is being purged from base C:\Users\bruno\Dropbox\AssistenteVeicular
+201 verbose gentlyRm don't care about contents; nuking C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+202 silly vacuum-fs purging C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n
+203 error error rolling back Error: EBUSY: resource busy or locked, rmdir 'C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n'
+203 error error rolling back     at Error (native)
+203 error error rolling back  { [Error: EBUSY: resource busy or locked, rmdir 'C:\Users\bruno\Dropbox\AssistenteVeicular\node_modules\angular-input-mask-i18n']
+203 error error rolling back   errno: -4082,
+203 error error rolling back   code: 'EBUSY',
+203 error error rolling back   syscall: 'rmdir',
+203 error error rolling back   path: 'C:\\Users\\bruno\\Dropbox\\AssistenteVeicular\\node_modules\\angular-input-mask-i18n' }

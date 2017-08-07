@@ -1,0 +1,44 @@
+<ion-view title="Criar Conta" hide-nav-bar="true" id="page10" style="background-color:#E2D9D9;" class=" ">
+    <ion-content padding="true"  scroll="false" class="manual-ios-statusbar-padding">
+        <div>
+            <div class="bar bar-header bar-positive">
+                <h1 class="title">Criar Conta</h1>
+            </div>
+        </div>
+        <div class="spacer" style="width: 283px; height: 59px;"></div>
+        <div>
+            <div class="list">
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Nome</span>
+                    <input type="text" maxlength="30" ng-model="proprietario.nomeUsuario" style="background-color: #f0f0f0" placeholder="Insira">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">E-mail</span>
+                    <input type="email" maxlength="30" ng-model="proprietario.emailUsuario" style="background-color: #f0f0f0" placeholder="Insira">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Data Nascimento</span>
+                    <input type="text" maxlength="10" id="campoData" ng-model="proprietario.dtNascUsuario" style="background-color: #f0f0f0" placeholder="aaaa/mm/dd">
+                </label>
+
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">RG</span>
+                    <input type="text" maxlength="9"  ng-model="proprietario.rgUsuario" style="background-color: #f0f0f0" placeholder="Insira">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">CPF</span>
+                    <input type="text"  maxlength="11" id="cpf" ng-model="proprietario.cpfUsuario" style="background-color: #f0f0f0" placeholder="Insira">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Senha</span>
+                    <input type="password" maxlength="6" ng-model="proprietario.senhaUsuario" style="background-color: #f0f0f0" placeholder="Insira">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Comfirmar senha</span>
+                    <input type="password" maxlength="6" ng-model="proprietario.confimarSenhaUsuario" style="background-color: #f0f0f0" placeholder="Insira">
+                </label>
+            </div>
+        </div>
+        <a  id="criarConta-button15" class=" button button-positive  button-block " ng-click="addProprietario()">Criar conta</a>
+    </ion-content>
+</ion-view>

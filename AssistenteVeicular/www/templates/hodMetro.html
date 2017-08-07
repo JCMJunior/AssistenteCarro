@@ -1,0 +1,17 @@
+<ion-view title="Hodômetro" hide-nav-bar="true" id="page3" style="background-color:#E2D9D9;" class=" ">
+    <ion-content padding="true" class="manual-ios-statusbar-padding" scroll="false">
+        <div>
+            <div class="bar bar-header bar-positive">
+                <h1 class="title">Hodômetro</h1>
+            </div>
+        </div>
+        <div class="spacer" style="width: 283px; height: 145px;"></div>
+        <h4 id="hodMetro-heading2" style="color:#000000;text-align:center;" class=" ">Atualize as informações de hodômetro do seu veículo</h4>
+        <form id="hodMetro-form4" class="list ">
+            <label class="item item-input " id="hodMetro-input5">
+                <input type="number" id="km" maxlength="6" placeholder="Insira" ng-model="hodometro.kilometragem" ng-value="hodometro.kilometragem">
+            </label>
+        </form>
+        <a id="hodMetro-button3" class=" button button-positive  button-block icon-right ion-android-refresh " ng-click="gravarHodometro()">Atualizar</a>
+    </ion-content>
+</ion-view>

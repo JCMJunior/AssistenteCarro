@@ -1,0 +1,24 @@
+<ion-view title="Manutenções" id="page4"  style="background-color:#E2D9D9;" class=" "><img class="title-image" src="img/logoAV5.png" />
+    <ion-content padding="true" class="has-header">
+        <ion-list id="manutenEs-list3" class=" ">
+            <ion-item class="item-divider " id="manutenEs-list-item-divider2">Informações de Km</ion-item>
+        </ion-list>
+        <div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
+        <ion-list id="manutenEs-list4" class=" ">
+            <ion-item class="item-divider " id="manutencao-list-item-divider5">Manutenções:</ion-item>
+        </ion-list>
+        <div>
+            <ion-list  ng-repeat="manutencao in listaManutencao.tipoManutencao">
+
+               <ion-checkbox >{{manutencao.ds_manutencao}}</ion-checkbox>
+                
+            </ion-list>
+        </div>
+        <a ui-sref="tabsController.home" id="manutenEs-button11" class=" button button-positive  button-block icon-right ion-checkmark-circled ">Confirmar manutenção</a>
+    </ion-content>
+</ion-view>

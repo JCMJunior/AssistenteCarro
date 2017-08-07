@@ -1,0 +1,30 @@
+<ion-view title="Minha Conta" id="page9" style="background-color:#E2D9D9;" class=" ">
+    <ion-content padding="true" scroll="false" class="has-header">
+        <div>
+            <div class="list" >
+
+                <label class="item item-stacked-label">
+                    <span>Nome: {{proprietario.nome}} </span>
+                </label>
+                <label class="item item-stacked-label">
+                    <span>E-mail: {{proprietario.email}} </span>
+                </label>
+                <label class="item item-stacked-label">
+                    <span>Nascimento: {{proprietario.nascimento}} </span>
+                </label>
+                <label class="item item-stacked-label">
+                    <span>RG: {{proprietario.rg}}</span>
+                </label>
+                <label class="item item-stacked-label">
+                    <span>CPF: {{proprietario.cpf}}</span>
+                </label>
+               
+            </div>
+        </div>
+        <div id="minhaConta-button-bar1" class=" button-bar "></div>
+        <div id="minhaConta-button-bar2" class=" button-bar ">
+            <a ui-sref="alterarDados" id="minhaConta-button9" style="border-radius:10px 10px 10px 10px;" class=" button button-positive  button-block ">Alterar dados</a>
+            <a ui-sref="excluirConta" id="minhaConta-button10" style="border-radius:10px 10px 10px 10px;" class=" button button-positive  button-block ">Excluir conta</a>
+        </div>
+    </ion-content>
+</ion-view>

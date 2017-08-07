@@ -1,0 +1,34 @@
+<ion-view title="Abastecimento" id="page15" style="background-color:#E2D9D9;" class=" ">
+    <ion-content padding="true" class="has-header">
+
+        <div class="spacer" style="width: 300px; height: 60px;"></div>
+
+        <form id=" " class=" ">
+            <ion-list id=" " class=" ">
+                <label class="item item-input " >
+                    <span class="input-label">Data do<br>Abastecimento:</span>
+                    <input type="date" placeholder="">
+                </label>
+                <label class="item item-input " >
+                    <span class="input-label" id="precoLitro">Valor por litro: R$</span>
+                    <input type="number" placeholder="" id="precoLitro" require="number">
+                </label>
+                <label class="item item-input " >
+                    <span class="input-label" id="vlAbastecido">Valor Abastecido: R$</span>
+                    <input type="number"  id="vlAbastecido" placeholder="" require="number">
+                </label>
+                <label class="item item-input " >
+                    <span class="input-label"  id="totalLitros">Litros Abastecidos:</span>
+                    <input type="number" placeholder="" id="totalLitros" require="number">
+                </label>
+                <label class="item item-input ">
+                    <span class="input-label" id="hodometro">Hodômetro Atual:</span>
+                    <input type="number" placeholder="" id="hodometro" require="number">
+                </label>
+            </ion-list>
+            <a  class=" button button-positive  button-block " ng-click="calcular()">Calcular /Gravar</a>
+           
+           <h2 id="demo"><div style="text-align:center; color: blue"> {{melhor}}</div></h2>
+        </form>
+     </ion-content>
+</ion-view>

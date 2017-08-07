@@ -1,0 +1,16 @@
+/* Empty. Add your own CSS if you like */
+p:after {
+    content: "";
+    display: block;
+    background: url("gas.jpg") no-repeat;
+    width: 26px;
+    height: 26px;
+    float: center;
+    margin: 0 6px 0 0;
+}
+
+.splash_screen_bg {
+  background-image: url("../img/splash_screen.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}

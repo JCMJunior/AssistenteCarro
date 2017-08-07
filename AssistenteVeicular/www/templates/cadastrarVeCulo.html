@@ -1,0 +1,54 @@
+<ion-view title="Cadastrar Veículo" hide-nav-bar="true" id="page14" style="background-color:#E2D9D9;" class=" ">
+    <ion-content padding="true" class="manual-ios-statusbar-padding" scroll="false">
+        <div>
+            <div class="bar bar-header bar-positive">
+                <h1 class="title">Cadastrar Veículo</h1>
+            </div>
+        </div>
+        <div class="spacer" style="height: 100px;"></div>
+        <div>
+            <div class="list">
+                <label class="item item-input item-select" style="background-color: #f0f0f0">
+                    <div class="input-label">
+                        Marca
+                    </div>
+                    <select style="background-color: #f0f0f0" name="marcaSelecionada" id="marcaSelecionada" ng-model="listaMarca.idMarcaSelecionada" ng-change="buscarModelo()">
+                        <option ng-repeat="marca in listaMarca.marcasDisponiveis" value="{{marca.cd_marca_veiculo}}">{{marca.nm_marca_veiculo}}</option>
+                    </select>
+                </label>
+            </div>
+            <div class="list">
+                <label class="item item-input item-select" style="background-color: #f0f0f0">
+                    <div class="input-label">
+                        Modelo
+                    </div>
+                     <select style="background-color: #f0f0f0" name="modeloSelecionado" id="modeloSelecionado" ng-model="listaModelo.idModeloSelecionado">
+                        <option ng-repeat="modelo in listaModelo.modelosDisponiveis" value="{{modelo.cd_modelo}}" >{{modelo.nm_modelo}}</option>
+                    </select>
+                </label>
+            </div>
+            <div class="list list-inset">
+                <label class="item item-input" style="background-color: #f0f0f0">
+                    <input type="text" placeholder="Ano" ng-model="veiculo.anoVeiculo">
+                </label>
+                <label class="item item-input" style="background-color: #f0f0f0">
+                    <input type="text" placeholder="Placa"
+                    ng-model="veiculo.placaVeiculo">
+                </label>
+                 <label class="item item-input" style="background-color: #f0f0f0">
+                    <input type="text" placeholder="Hodômetro"
+                    ng-model="veiculo.hodometrokilometragem">
+                </label>
+            </div>
+        </div>
+
+    <a id="cadastrarVeCulo-button16" style="color:#FFFFFF;" class=" button button-positive  button-block icon-right ion-checkmark-circled " ng-click="cadastrar()">Cadastrar</a>
+       <!-- <a ui-sref="hodMetro" id="cadastrarVeCulo-button16" style="color:#FFFFFF;" class=" button button-positive  button-block icon-right ion-checkmark-circled " ng-click="cadastrar()">Cadastrar</a> --!>
+
+   <!--     <h2>Marca: {{listaMarca.marcaSelecionada}}</h2>
+        <h2>Modelo: {{listaModelo.modeloSelecionado}}</h2>
+        <h2>Ano: {{anoVeiculo}}</h2>
+        <h2>Placa: {{placaVeiculo}}</h2>
+-->
+    </ion-content>
+</ion-view>

@@ -1,0 +1,36 @@
+<ion-view title="Login" hide-nav-bar="true" id="page5" class=" " style="background-color:#E2D9D9;">
+    <ion-content padding="true" class="manual-ios-statusbar-padding" scroll="false">
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
+        <div class="spacer" style="width: 300px; height: 166px;"></div>
+        <div>
+            <div class="bar bar-header bar-positive">
+                <h1 class="title">Assistente Veicular</h1>
+            </div>
+        </div>
+        <form id="login-form1" class="list ">
+               <div class="list">           
+        </div>
+            <ion-list id="login-list1" class=" ">
+                <label class="item item-input " id="login-input1">
+                    <span class="input-label">Login:</span>
+                    <input type="email" placeholder="email" ng-model="login.email">
+                </label>
+                <label class="item item-input " id="login-input2">
+                    <span class="input-label" >Senha:</span>
+                    <input type="password" placeholder="senha" ng-model="login.senha">
+                </label>
+            </ion-list>
+            <a id="login-button1" class=" button button-positive  button-block icon-right ion-log-in " ng-click="fazerLogin(login)">Entrar</a>
+            <a ui-sref="criarConta" id="login-button2" style="color:#1911EC;" class=" button button-light  button-block ">Primeira vez por aqui? Crie sua conta</a>
+        </form>
+    <br><br><br>
+    <br><br><br>
+  <center>
+    <a class="button button-small button-positive button-positive icon ion-social-facebook"  href="#"  onclick="window.open('https://www.facebook.com/AssistenteVeicularOficial/timeline')">   Facebook </a>
+    <a class="button button-small button-calm button-calm  icon ion-social-twitter" href="#" onclick="window.open('https://twitter.com/Oficial_AV')">Twitter</a>
+    <a class="button button-small button-calm button-assertive icon ion-social-google"  href="#" onclick="window.open('https://plus.google.com/u/0/112748437354544679938?hl=pt-BR')">Google+</a>
+ </center>
+ <br>
+  <center>  Email: assistenteveicularoficial@gmail.com </center>
+    </ion-content>
+</ion-view>
